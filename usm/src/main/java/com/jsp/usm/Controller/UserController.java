@@ -82,4 +82,7 @@ public class UserController {
 		userService.updateUserDetail(detailDto);
 	
 	}
+	public voidm1()
+	{
+	}
 }
