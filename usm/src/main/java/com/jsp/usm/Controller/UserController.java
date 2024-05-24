@@ -66,9 +66,7 @@ public class UserController {
 	
 	@GetMapping("/getUserByName")
 	public List<UserEntity> getUserByName(String name){
-		
 		return userService.getUserByName(name);
-				
 	}
 	
 	@GetMapping(value = "/getUserByNameAndEmailOrContactNumberByAsc")
