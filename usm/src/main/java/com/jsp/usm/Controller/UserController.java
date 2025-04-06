@@ -38,12 +38,14 @@ public class UserController {
 		LOGGER.info("executing creat", dto);
 		return userService.prepareAndSaveUser(dto);
 		
+		
 	}
 	
 	@GetMapping(value="/getAllUsers")
 	public @ResponseBody Page<UserEntity> getAllUser(){
 		
 		return  userService.getAllUser();
+		System.out.println("hello");
 	}
 
 	@GetMapping(value = "/getUserById/{userId}")
