@@ -80,6 +80,6 @@ public class UserController {
 	@PostMapping(value ="/updateUserDetails")
 	public void updateUserDetail(@RequestBody UserUpdateDetailDto detailDto) {
 		userService.updateUserDetail(detailDto);
-		System.out.println("hello harita");
+		System.out.println("hello hi");
 	}
 }
