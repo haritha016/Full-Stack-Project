@@ -2,7 +2,7 @@ package com.jsp.usm.Dto;
 
 public class UserDto {
 	
-	private String memberName;
+	//private String memberName;
 	
 	private String email;
 	
