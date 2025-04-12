@@ -12,7 +12,7 @@ public class ChannelController {
 	@PostMapping(value = "/sendSms")
 	public String sendSms(@RequestBody Map<String ,String> data) {
 		System.out.println(data.get("smsContent"));
-
+		System.out.println("hello new changes");
 		return "sms send successfully" ;
 
 	}
