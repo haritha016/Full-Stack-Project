@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController 
-public class ChannelController {
+public class ChannelControllerNew {
 	
 	@PostMapping(value = "/sendSms")
 	public String sendSms(@RequestBody Map<String ,String> data) {
